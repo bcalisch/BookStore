@@ -137,16 +137,6 @@
 					<reload>${jetty.reload}</reload>
 					<stopKey>stop</stopKey>
 					<stopPort>${jetty.stopPort}</stopPort>
-<!-- 					<systemProperties>
-						<systemProperty>
-							<name>spring.profiles.active</name>
-							<value>${spring.profiles.active}</value>
-						</systemProperty>
-						<systemProperty>
-							<name>catalina.base</name>
-							<value>${project.build.directory}</value>
-						</systemProperty>
-					</systemProperties> -->
 				</configuration>
 			</plugin>
             
